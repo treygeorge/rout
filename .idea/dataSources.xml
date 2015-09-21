@@ -1,15 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2344737497">
-    <data-source source="LOCAL" name="Rails therout: development" product="SQLite" version="3.7.6.3" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="87643ba4-850b-4490-9c00-6e75774162a4">
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+  <component name="DataSourceManagerImpl" format="xml" hash="4055351906">
+    <data-source source="LOCAL" name="Rails therout: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="2a4b9f76-815b-43fe-b4be-9934318dcac2">
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:db/test</jdbc-url>
       <libraries>
         <library>
-          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/xerial-sqlite-license.txt</url>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>
         </library>
         <library>
-          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/sqlite-jdbc-3.7.6.3-20110609.081603-3.jar</url>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.2-1002.jdbc4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails therout: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="d7d18a53-fe39-4c7b-97c2-4cf38ed07b0a">
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:db/development</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.2-1002.jdbc4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails therout: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="d33047c0-3be9-41eb-86bf-5ea0f311d3e3">
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:db/production</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.2-1002.jdbc4.jar</url>
         </library>
       </libraries>
     </data-source>
